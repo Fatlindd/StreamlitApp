@@ -16,5 +16,9 @@ with col1:
 
 with col2:
     uppercase = st.button('Uppercase Element')
-    def toUpperCase():
-        pass
+    def toUpperCase(items):
+        elements = [item.upper() for item in items]
+        st.write(elements)
+
+    if uppercase:
+        toUpperCase(listItem)
