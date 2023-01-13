@@ -22,3 +22,11 @@ with col2:
 
     if uppercase:
         toUpperCase(listItem)
+
+with col3:
+    lengthOfList = st.button('Length Of List')
+    def lengthList(items):
+        st.write(len(items))
+    
+    if lengthOfList:
+        lengthList(listItem)
