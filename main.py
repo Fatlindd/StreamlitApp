@@ -13,3 +13,8 @@ with col1:
 
     if convertToList:
         createList(listItem)
+
+with col2:
+    uppercase = st.button('Uppercase Element')
+    def toUpperCase():
+        pass
